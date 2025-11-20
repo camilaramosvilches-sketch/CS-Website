@@ -1,40 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About | CliftonStrengths Coaching</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Cami | CliftonStrengths and DEI Coaching</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Space+Grotesk:wght@500;700&display=swap">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="container nav">
-            <h1>CliftonStrengths Coaching</h1>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="testimonials.html">Testimonials</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </header>
-
-    <div class="container">
-        <section>
-            <h3>About Me</h3>
-            <p>Hello! I’m Cami, a certified strengths‑based coach dedicated to helping individuals and teams unlock their potential. With a professional background in diversity, equity and inclusion, I’ve seen firsthand how focusing on what makes each person unique fosters engagement and collaboration. I bring this perspective to my coaching practice, creating inclusive spaces where clients feel seen, valued and empowered.</p>
-            <p>I became passionate about the CliftonStrengths methodology after witnessing the transformational impact it had on my own development. The assessment provided language to describe my natural talents and helped me shift my energy toward maximizing them. Today I guide others through the same discovery process, using evidence‑based techniques and Gallup’s research to support meaningful growth.</p>
-        </section>
-
-        <section>
-            <h3>My Approach</h3>
-            <p>Every engagement begins with curiosity. I work with you to explore your unique strengths profile and understand how your talents influence your behavior. Together we set goals that align with your values, and I provide feedback, tools and accountability to help you develop habits that leverage your strengths. Whether you’re an individual seeking clarity or a team looking to increase collaboration, my coaching is tailored to meet you where you are.</p>
-        </section>
+  <header>
+    <div class="nav">
+      <h1><span>Cami</span> Ramos Coaching</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </div>
+  </header>
 
-    <footer>
-        <p>&copy; 2025 CliftonStrengths Coaching. All rights reserved.</p>
-    </footer>
+  <main>
+    <div class="container about-layout">
+      <div>
+        <h2 class="section-title">About Cami</h2>
+        <p class="section-sub">CliftonStrengths coach and DEI practitioner for people who know they deserve more.</p>
+
+        <p>I am a CliftonStrengths coach and DEI practitioner who has worked in local, regional and global roles across different sectors. A lot of my work has focused on shifting cultures, policies and systems so that marginalised people can work and live with more dignity.</p>
+
+        <p>In coaching, I bring the same lens to individual careers. We look at your strengths, your story and the power dynamics around you. Then we design moves that fit your context and your nervous system, not just some generic success template.</p>
+
+        <h3 style="margin-top: 1.8rem;">What I bring to our sessions</h3>
+        <ul class="clean-list">
+          <li>A deep understanding of how racism, sexism, queerphobia and other systems show up in workplaces.</li>
+          <li>Experience across local, regional and global roles, including international NGOs and corporate networks.</li>
+          <li>CliftonStrengths tools that give you clear language for your talents and how they create value.</li>
+          <li>A direct style with care, humour and zero judgement. We will be honest and also human.</li>
+        </ul>
+
+        <h3 style="margin-top: 1.8rem;">My values in coaching</h3>
+        <p>I work from three core values: dignity, agency and honesty.</p>
+        <ul class="clean-list">
+          <li>Dignity means you do not have to earn your place in the room.</li>
+          <li>Agency means you always choose your own path. I offer perspective and tools, you keep the final say.</li>
+          <li>Honesty means I will not pretend that bias or risk are not there, or that change will feel comfortable all the time.</li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="card">
+          <div class="card-tag">My approach</div>
+          <h3>Strengths and social justice in the same room</h3>
+          <p>Strengths work is powerful, but it does not live in a vacuum. We combine it with a clear view of how power and identity operate at work, so that your plans are grounded and real.</p>
+          <p>We can coach in English or Spanish, across time zones, and around the realities of your life and work.</p>
+        </div>
+
+        <div class="card" style="margin-top: 1.4rem;">
+          <h3>Who I love to work with</h3>
+          <ul class="clean-list">
+            <li>People from underrepresented or marginalised backgrounds in their field or organisation.</li>
+            <li>People who are ready to pivot or to ask for more, even if they feel scared or unsure.</li>
+            <li>People who want to claim more power at work without losing themselves in the process.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div>© <span id="year"></span> Cami Ramos Coaching.</div>
+      <div>Coaching online and across regions. CliftonStrengths, DEI and social justice lens.</div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
